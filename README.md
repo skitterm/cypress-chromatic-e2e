@@ -1,9 +1,5 @@
-# React + Vite
+To run things:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# cypress-manual-snapshots
+1. Install dependencies: `npm install`
+2. Run Cypress: `ELECTRON_EXTRA_LAUNCH_ARGS=--remote-debugging-port=9222 npx cypress run`
+3. Open the archived storybook: `npm run archive-storybook`
